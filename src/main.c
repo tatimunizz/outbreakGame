@@ -54,7 +54,7 @@ Ball ball;
 GameBar gameBar;
 Bricks bricks[BRICKS_LINES][BRICKS_COLUMNS];
 
-int inactiveBricks = 0;
+int inactiveBricks;
 bool gamePaused = false;
 int framesCounter;
 //-------------------------------------------------- function declaration
@@ -79,6 +79,7 @@ int main(void) {
 //-------------------------------------------------- INIT
 void initGame() {
     framesCounter = 0;
+    inactiveBricks = 0;
     player = (Player) {
             0,
             BEGIN_LIFE,
