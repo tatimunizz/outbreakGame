@@ -1,10 +1,5 @@
 #include "raylib.h"
 
-#ifdef __EMSCRIPTEN__
-#include <emscripten.h>
-#endif
-
-
 #define SCREEN_WIDTH (800)
 #define SCREEN_HEIGHT (450)
 #define BEGIN_LIFE (3)
