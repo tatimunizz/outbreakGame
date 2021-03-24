@@ -80,6 +80,7 @@ int main(void) {
 void initGame() {
     framesCounter = 0;
     inactiveBricks = 0;
+	
     player = (Player) {
             0,
             BEGIN_LIFE,
