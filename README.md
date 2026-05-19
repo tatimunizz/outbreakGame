@@ -3,6 +3,8 @@
 A classic brick‑breaker clone written in **C** with the **raylib** multimedia library.  
 Break all the bricks, keep the ball alive, and score as many points as possible!
 
+[Play it at itch.io!](https://tatimunizz.itch.io/outbreak-game)
+
 ## A note from me :D
 
 I developed this game to practice C programming while taking CISC1001 – Programming Science at the University of Macau. It wasn't mandatory; I took the initiative because I'm a fan of game development, I had known about Raylib for a while, and I was wanting to play with it.
