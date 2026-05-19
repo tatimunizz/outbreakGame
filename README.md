@@ -57,7 +57,7 @@ No external assets (images, sounds) are used – everything is drawn with raylib
 ```
 outbreakGame/
 ├── src/
-│   └── main.c             # Entire game code (~112 lines)
+│   └── main.c             # Entire game code
 ```
 
 ---
